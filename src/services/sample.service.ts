@@ -23,7 +23,6 @@ const DB: Wizard[] = [
     }
 ]
 
-
 export const getData = async (): Promise<Wizard[]> => {
     return new Promise(res => {
         setTimeout(() => {
